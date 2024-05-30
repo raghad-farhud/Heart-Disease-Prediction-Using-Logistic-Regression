@@ -1,11 +1,6 @@
 # Heart-Disease-Prediction-Using-Logistic-Regression
 World Health Organization has estimated that four out of five cardiovascular disease (CVD) deaths are due to heart attacks. This whole research intends to pinpoint the ratio of patients who possess a good chance of being affected by CVD and also to predict the overall risk using Logistic Regression.
 
-# ML | Heart Disease Prediction Using Logistic Regression
-
-World Health Organization has estimated that four out of five cardiovascular disease (CVD) deaths are due to heart attacks. This whole research intends to pinpoint the ratio of patients who possess a good chance of being affected by CVD and also to predict the overall risk using Logistic Regression.
-
-https://www.geeksforgeeks.org/ml-heart-disease-prediction-using-logistic-regression/
 
 ### #1 install and import the following librares:
 
@@ -56,9 +51,9 @@ print(diseas_ds.shape)
 print(diseas_ds['TenYearCHD'].value_counts)
 ```
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e96fd194-916c-46b2-9da2-eed4fb07dfa6/5905b32b-5e73-4427-8af9-251c4922a9a4/Untitled.png)
+![Heart Disease Prediction Using Logistic Regression -1](https://github.com/raghad-farhud/Heart-Disease-Prediction-Using-Logistic-Regression/assets/86526536/60a8715d-2183-404d-9df0-40459a8f094b)
+![Heart Disease Prediction Using Logistic Regression -2](https://github.com/raghad-farhud/Heart-Disease-Prediction-Using-Logistic-Regression/assets/86526536/16889425-4b86-4bbc-a8cf-3b14b2eb42c6)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e96fd194-916c-46b2-9da2-eed4fb07dfa6/da8cee51-8f9e-42eb-b781-37da7b1de3ef/Untitled.png)
 
 ### **Next Step: Splitting the Dataset into Training and Testing Sets**
 
@@ -82,7 +77,8 @@ print("Test set: ", X_test.shape, y_test.shape)
 
 ```
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e96fd194-916c-46b2-9da2-eed4fb07dfa6/ac98cf25-95e5-4209-9cbd-6177f52c855a/Untitled.png)
+![Heart Disease Prediction Using Logistic Regression -3](https://github.com/raghad-farhud/Heart-Disease-Prediction-Using-Logistic-Regression/assets/86526536/9f121363-d28d-4c4f-8ff7-c869406dd192)
+
 
 ### **Exploratory Data Analysis (EDA)**
 
@@ -114,11 +110,10 @@ plt.title('Correlation Heatmap')
 plt.savefig('./images/correlation_heatmap.png')
 ```
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e96fd194-916c-46b2-9da2-eed4fb07dfa6/be04e0cc-ba22-4727-a517-435c5fa8089d/Untitled.png)
+![Heart Disease Prediction Using Logistic Regression -4](https://github.com/raghad-farhud/Heart-Disease-Prediction-Using-Logistic-Regression/assets/86526536/d7a022a1-8d15-4814-8714-fb2cfabacb39)
+![Heart Disease Prediction Using Logistic Regression -5](https://github.com/raghad-farhud/Heart-Disease-Prediction-Using-Logistic-Regression/assets/86526536/7ef0aced-8d95-4c22-97ca-f525f6440068)
+![Heart Disease Prediction Using Logistic Regression -6](https://github.com/raghad-farhud/Heart-Disease-Prediction-Using-Logistic-Regression/assets/86526536/d08f4335-57f6-4adf-acea-0d9cefe94e61)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e96fd194-916c-46b2-9da2-eed4fb07dfa6/74d8b4b2-8715-440b-b8ca-bc3620e71f66/Untitled.png)
-
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e96fd194-916c-46b2-9da2-eed4fb07dfa6/1f74fd01-ec7b-45ef-820f-34b30dc7305f/Untitled.png)
 
 ### **Fitting Logistic Regression Model for Heart Disease Prediction**
 
